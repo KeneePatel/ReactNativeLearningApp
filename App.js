@@ -1,6 +1,7 @@
 import { createAppContainer } from 'react-navigation';
 import { createStackNavigator } from 'react-navigation-stack';
 import appScreen from "./screens/app";
+import BoxScreen from './screens/BoxScreen';
 import ColorChangeScreen from './screens/ColorChangeScreen';
 import ColorScreen from './screens/ColorScreen';
 import componentsScreen from "./screens/components";
@@ -19,6 +20,7 @@ const navigator = createStackNavigator(
     Color: ColorScreen,
     ColorChanger: ColorChangeScreen,
     Text: TextScreen,
+    Box: BoxScreen,
   },
   {
     initialRouteName:'App',

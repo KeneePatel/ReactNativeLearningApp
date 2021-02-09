@@ -27,8 +27,9 @@ const styles = StyleSheet.create({
         margin: 15,
         borderColor: 'black',
         borderWidth: 2,
-        textAlign: 'center',
-        fontSize: 15,
+        padding: 10,
+        fontSize: 18,
+        borderRadius: 10,
     },
     text: {
         textAlign: 'center',
